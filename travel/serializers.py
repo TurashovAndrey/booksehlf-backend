@@ -1,9 +1,9 @@
 from rest_framework.serializers import ModelSerializer
-from .models import Book
+from .models import Travel
 
 
-class BookSerializer(ModelSerializer):
+class TravelSerializer(ModelSerializer):
 
     class Meta:
-        model = Book
+        model = Travel
         fields = '__all__'
